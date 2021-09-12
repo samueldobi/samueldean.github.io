@@ -1,0 +1,349 @@
+
+.navbar-nav a{
+	color:#1E90FF;
+}
+/* navbar design*/
+/*.navbar-style{
+	box-shadow: 0px 5px 5px #efefef;
+	padding:0;
+	margin:0;
+}
+/* main section*/
+nav img{
+	max-width: 100px;
+	max-height: 30px;
+}
+.about-intro{
+	margin-bottom: 8em;
+	background-color:#F7F1F1;
+}
+#intro-header{
+	font-size: 3.5em;
+	padding-top: 1em;
+	padding-right:20px;
+}
+#intro-header2{
+	font-size:1.5em;
+	padding-right:20px;
+}
+/* second section*/
+h1{
+	text-align: center;
+}
+#bio-header{
+	font-size: 1.5em;
+}
+#skills-header{
+	font-size: 1.8em;
+}
+.bio{
+	font-size:1.3em;
+}
+.skills-container{
+	display:flex;
+}
+.skills-container p{
+	padding:5px;
+	margin:10px;
+	font-size:1.2em;
+}
+#skills-box{
+	border:1px solid #F7F1F1;
+	background-color: #F7F1F1;
+	padding:10px;
+}
+.my-intro-section{
+	margin-bottom: 4em;
+}
+.personal-info img{
+	max-width:50%;
+}
+.personal-txt{
+	background-color:#F7F1F1;
+	min-width:100%;
+	height: 300px;
+}
+.personal-txt p{
+	font-size: 2.5vw;
+	padding-left:15px;
+	text-align:center;
+	padding-top:40px;
+}
+#my-info2{
+	padding-top:5px;
+}
+.work-info{
+	margin:0 auto;/*this centers an item but doesnt work always*/
+}
+.my-work{
+	max-width:1000px;
+    height:500px;
+	display:flex;
+    justify-content: space-between;
+    background-color:white;
+	border-radius:10px; 
+    box-shadow: 2px 2px 2px 2px grey;
+	padding:20px;
+	transform: translateY(-2em);
+	margin:0 auto;
+	
+}
+.my-work div{
+	padding: 10px;
+	font-size:2vw;
+}
+.my-work div i{
+	color:#1E90FF;
+}
+.design {
+    border-right: solid 2px #F5F5DC;
+   }
+#design-intro{
+	   font-weight:bolder;
+   }
+#design-intro2{
+	font-size:1.7vw;
+}
+.recent-container{
+	background-color:#F7F1F1;
+}
+#recent-work-text{
+	text-align: center;
+	font-size: 2.5vw;
+	color:#1E90FF ;
+}
+.card{
+	height:500px;
+	background-color: white;
+	margin:20px;
+}
+
+.card img{
+	border-radius:10px;
+}
+.project-info{
+	padding:1em;
+}
+.project-info a{
+	padding:1em;
+	border:solid 1px #1E90FF;
+	color:black;
+	text-decoration: none;
+}
+#site-link{
+	margin-top:2em;
+}
+footer{
+ width:100%;
+ height:300px;
+ background-color:#1E90FF;
+ margin-top: 6em;
+}
+#footer-txt{
+	text-align: center;
+	padding-top: 2em;
+	font-size: 2em;
+}
+.sm-icons{
+	text-align: center;
+}
+.sm-icons i{
+	font-size: 2em;
+	padding:2em;
+}
+
+
+@media only screen and (max-width: 1024px){
+	.nav-item a{
+		font-size: 2.5em;
+		padding:13px;
+	}
+	#intro-header{
+		font-size:2.5em;
+		padding-top: 0.5em;
+	}
+	#intro-header2{
+		font-size:1.7em;
+	}
+	h1{
+		font-size:3em;
+	}
+	#bio-header{
+		font-size: 1.5em;
+		font-weight:500;
+	}
+	.row{
+		flex-direction: column;
+	}
+	#skills-header{
+		font-size: 1.8em;
+		font-weight:500;
+	}
+	#bio-txt,#skills-box{
+		font-size:1.3em;
+	}
+	.intro-text{
+		font-size: 1.5em;
+	}
+	.my-work div p{
+		font-size: 2em;
+	}
+	.my-work div i{
+		font-size: 3em;
+	}
+	#design-intro2{
+		font-size:1.5em;
+	}
+	#recent-work-text{
+		font-size:2.5em;
+	}
+	#my-info{
+		font-size: 3em;
+		margin-bottom: 0;
+	}
+	#my-info2{
+		font-size: 2em;
+	}
+	#project-header{
+		font-size: 2em;
+	}
+	#project-writeup{
+		font-size: 1.5em;
+	}
+	.card{
+		height:700px;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	.nav-item a{
+		font-size: 2em;
+		padding:8px;
+	}
+	#bio-header,#skills-header{
+		font-size: 1.5em;
+		font-weight:500;
+	}
+	
+	.row{
+		flex-direction: column;
+	}
+	.my-work{
+		flex-wrap:wrap;
+		max-width:480px;
+		height:750px;
+	}
+	.my-work div i{
+		font-size: 3em;
+	}
+	.my-work div p{
+		font-size: 2em;
+	}
+	#my-info{
+		font-size: 2em;
+	}
+	#my-info2{
+		font-size: 1.7em;
+	}
+	#design-intro2{
+		font-size: 1.4em;
+	}
+	.recent-work{
+		justify-content: center;
+	}
+	#recent-work-text{
+		font-size:1.8em;
+	}
+}
+@media only screen and (max-width: 540px) {
+	.about-intro img{
+		max-width: 70%;
+	}
+	.row{
+		flex-direction: column;
+	}
+	#my-info{
+		margin-top: 0;
+	}
+	#my-info2{
+		font-size:1.3em ;
+	}
+	#design-intro2{
+		font-size: 2em;
+	}
+	.sm-icons i{
+		padding:1em;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.img-responsive{
+		max-width:60%;
+	}
+	.container #intro-text{
+		font-size:1.4em;
+		transform: translateY(-9.5em);
+	}
+	.container #intro-text2{
+		font-size:1em;
+		transform: translateY(-13em);
+	}
+	.row{
+		flex-direction: column;
+	}
+	.skills-container{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	#my-info{
+		font-size: 1.4em;
+	}
+	#my-info2{
+		font-size: 1.2em;
+	}
+	.my-work{
+		height:560px;
+	}
+	.my-work div i{
+		font-size: 3em;
+	}
+	.my-work div p{
+		font-size: 3em;
+	}
+	#design-intro2{
+		font-size: 2em;
+	}
+	.recent-work{
+		margin-left: 10px;
+	}
+	#recent-work-text{
+		font-size:1.5em;
+	}
+	.recent-work img{
+		width:260px;
+	}
+	footer{
+		width:100%;
+	}
+	#footer-txt{
+		font-size: 2em;
+	}
+	.sm-icons i{
+		padding:0.7em;
+	}
+}
+@media only screen and (max-width: 320px){
+	.skills-container{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	#my-info2{
+		font-size:1em ;
+	}
+	#project-header{
+		font-size:2em;
+	}
+	#project-writeup{
+		font-size:1.2em;
+	}
+}
