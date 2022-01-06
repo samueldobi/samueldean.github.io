@@ -1,12 +1,8 @@
-
+body, html {
+    font-family: 'Ubuntu', sans-serif;
+  }
 .navbar-nav a{
 	color:#1E90FF;
-}
-/* navbar design*/
-/*.navbar-style{
-	box-shadow: 0px 5px 5px #efefef;
-	padding:0;
-	margin:0;
 }
 /* main section*/
 nav img{
@@ -110,7 +106,7 @@ h1{
 #recent-work-text{
 	text-align: center;
 	font-size: 2.5vw;
-	color:#1E90FF ;
+	font-weight: bold;
 }
 .card{
 	height:500px;
@@ -150,6 +146,9 @@ footer{
 .sm-icons i{
 	font-size: 2em;
 	padding:2em;
+}
+.sm-icons a{
+	all: unset;
 }
 
 
