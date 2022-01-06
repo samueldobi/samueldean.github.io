@@ -149,6 +149,7 @@ footer{
 }
 .sm-icons a{
 	all: unset;
+	text-decoration: none;
 }
 
 
