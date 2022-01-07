@@ -11621,11 +11621,11 @@ footer.footer .social-link:hover {
 }
 @media only screen and (max-width: 600px){
   .work-info{
-    height:470px;
+    height:690px;
   }
   .my-work{
     flex-direction: column;
-    height: 410px;
+    height: 620px;
   }
   #design-intro{
 		font-size: 2em;
@@ -11633,8 +11633,14 @@ footer.footer .social-link:hover {
   #design-intro2{
 		font-size: 1.8em;
 	}
-  .design  i{
-		font-size: 4em;
+ 
+}
+@media only screen and (max-width: 480px){
+  #design-intro{
+		font-size: 3em;
+	}
+  #design-intro2{
+		font-size: 2.3em;
 	}
 }
 @media only screen and (max-width: 320px){
