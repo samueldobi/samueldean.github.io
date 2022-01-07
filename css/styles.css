@@ -11621,7 +11621,7 @@ footer.footer .social-link:hover {
 }
 @media only screen and (max-width: 600px){
   .work-info{
-    height:450px;
+    height:470px;
   }
   .my-work{
     flex-direction: column;
